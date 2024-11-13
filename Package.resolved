@@ -1,5 +1,5 @@
 {
-  "originHash" : "ebc65b8885bb5b3c6724fa5f2218e106d05666835e89aea422b7568779c25fc1",
+  "originHash" : "1e41e9c8ac1c647921341697732b369f63e91d3215d9bcca859a1709c0472354",
   "pins" : [
     {
       "identity" : "anycodable",
@@ -16,7 +16,7 @@
       "location" : "https://github.com/attaswift/BigInt.git",
       "state" : {
         "revision" : "a7ee11486233ba45f5ceee0b8cb3d6629ed450ef",
-        "version" : "5.5.0"
+        "version" : "5.3.0"
       }
     },
     {
