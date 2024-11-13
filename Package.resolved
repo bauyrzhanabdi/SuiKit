@@ -1,5 +1,5 @@
 {
-  "originHash" : "1e41e9c8ac1c647921341697732b369f63e91d3215d9bcca859a1709c0472354",
+  "originHash" : "7e4caae2107adf9f19711e6b1a2a651db2e20da51d62a6171aa9f492e7a7ec0a",
   "pins" : [
     {
       "identity" : "anycodable",
@@ -15,7 +15,7 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/attaswift/BigInt.git",
       "state" : {
-        "revision" : "a7ee11486233ba45f5ceee0b8cb3d6629ed450ef",
+        "revision" : "0ed110f7555c34ff468e72e1686e59721f2b0da6",
         "version" : "5.3.0"
       }
     },
@@ -62,6 +62,15 @@
       "state" : {
         "revision" : "1e153ef009969543191970c66b7c60163c0b4a65",
         "version" : "3.2.0"
+      }
+    },
+    {
+      "identity" : "secp256k1.swift",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/Boilertalk/secp256k1.swift.git",
+      "state" : {
+        "revision" : "cd187c632fb812fd93711a9f7e644adb7e5f97f0",
+        "version" : "0.1.7"
       }
     },
     {

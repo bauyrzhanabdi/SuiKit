@@ -18,12 +18,10 @@ let package = Package(
         .package(url: "https://github.com/Flight-School/AnyCodable", from: "0.6.0"),
         .package(url: "https://github.com/tesseract-one/Bip39.swift.git", from: "0.1.1"),
         .package(url: "https://github.com/auth0/JWTDecode.swift", from: "3.1.0"),
-        .package(url: "https://github.com/attaswift/BigInt.git", from: "5.3.0")
+        .package(url: "https://github.com/attaswift/BigInt.git", from: "5.3.0"),
+        .package(url: "https://github.com/Boilertalk/secp256k1.swift.git", from: "0.1.7")
     ],
     targets: [
-        .target(
-            name: "secp256k2"
-        ),
         .target(
             name: "SuiKit",
             dependencies: [
@@ -35,7 +33,7 @@ let package = Package(
                 .product(name: "AnyCodable", package: "AnyCodable"),
                 .product(name: "Bip39", package: "Bip39.swift"),
                 .product(name: "JWTDecode", package: "JWTDecode.swift"),
-                "secp256k2"
+                .product(name: "secp256k1", package: "secp256k1.swift")
             ]
         ),
         .testTarget(
