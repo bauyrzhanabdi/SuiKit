@@ -1,3 +1,3 @@
 import BigInt
 
-extension BigUInt: Sendable {}
+extension BigUInt: @unchecked Sendable {}
